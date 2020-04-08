@@ -5,7 +5,7 @@
   if [ $pil = 'y' ] || [ $pil = 'Y' ];
   then
       clear
-      echo "\033[1;32mInstalling Jandes\033[1;0m"
+      echo "\033[1;32mInstalling\033[1;0m"
       sleep 2
       sudo apt-get  update -y
       sudo apt-get  upgrade -y
@@ -17,11 +17,11 @@
       sudo apt-get  install python
       echo "\033[1;32m Cloning SC LTC CLICK\033[1;0m"
       sleep 2
-      git clone https://github.com/kanxck/ltckanx.git
-      cd ltckanx
+      git clone https://github.com/kidd142/ltc.git
+      cd ltc
       unzip ltc.zip 
       cd
-      echo "\033[1;32mInstall Success Gaes\033[1;0m"
+      echo "\033[1;32mInstall Success\033[1;0m"
       sleep 2
       exit
   elif [ $pil = 't' ] || [ $pil = 'T' ];
@@ -32,7 +32,7 @@
      exit
   else
      clear
-     echo "\033[1;36mERROR : Please ngisenx maneh...!\033[1;0m"
+     echo "\033[1;36mERROR : Please Wait...!\033[1;0m"
      sleep 1
      echo $ulang
      clear
