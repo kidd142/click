@@ -17,7 +17,7 @@
       sudo apt-get  install python
       echo "\033[1;32m Cloning SC LTC CLICK\033[1;0m"
       sleep 2
-      git clone https://github.com/kidd142/ltc.git
+      git clone https://github.com/kidd142/click.git
       cd ltc
       unzip ltc.zip 
       cd
