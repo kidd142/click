@@ -1,6 +1,7 @@
-asyncio
-colorama
-telethon
+rsa
+pyaes
 requests
-bs4
+asyncio
 async_generator
+colorama
+bs4
